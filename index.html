@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
 <body>
-<h1>AC car price prediction competition</h1>
-<h2>Goal</h2>
-<p>This competition's goal is to predict with the best accuracy, the prices of an unknown car dataset. In order to do so, you'll be provided a training dataset, which you can use to tune your parameters.</p>
-<h2>Rules</h2>
-<p>The algoritm must be done in one of the following languages:</p>
-<ul>
-		<li>Python</li>
-		<li>Octave</li>
-		<li>R</li>
+<div class="container">
+	<h1>AC - Car price prediction competition</h1>
+	<h2>Goal</h2>
+	<p>This competition's goal is to predict with the best accuracy, the prices of an unknown car dataset. In order to do so, you'll be provided a training dataset, which you can use to tune your parameters.</p>
+	<h2>Rules</h2>
+	<p>The algoritm can be done in any language of your preference, but it must be well written so it can be understood by people with few knowledgement of the given language</p>
+	<p>It must take a csv file (using comma, not semicolon) as input, containing the following fields (the file contain headers):</p>
+	<ul>
+			<li>name</li>
+			<li>seller</li>
+			<li>offerType</li>
+			<li>abtest</li>
+			<li>vehicleType</li>
+			<li>yearOfRegistration</li>
+			<li>gearbox</li>
+			<li>powerPS</li>
+			<li>model</li>
+			<li>kilometer</li>
+			<li>fuelType</li>
+			<li>brand</li>
+			<li>notRepairedDamage</li>
+			<li>dateCreated</li>
+			<li>nrOfPictures</li>
+			<li>postalCode</li>
+			<li>lastSeen</li>
 	</ul>
-<p>It must take as input a csv file (using comma, not semicolon) containing the following fields (the file contain headers):</p>
-<ul>
-		<li>name</li>
-		<li>seller</li>
-		<li>offerType</li>
-		<li>abtest</li>
-		<li>vehicleType</li>
-		<li>yearOfRegistration</li>
-		<li>gearbox</li>
-		<li>powerPS</li>
-		<li>model</li>
-		<li>kilometer</li>
-		<li>fuelType</li>
-		<li>brand</li>
-		<li>notRepairedDamage</li>
-		<li>dateCreated</li>
-		<li>nrOfPictures</li>
-		<li>postalCode</li>
-		<li>lastSeen</li>
-</ul>
-<p>And return a csv file with the predicted price for each line</p>
-<p>PS: The input and the output file must have the same amount of lines</p>
+	<p>And return a csv file with the predicted price for each line</p>
+	<p>PS: The input and the output file must have the same amount of lines and each line in the output file must match the line in the input file</p>
+</div>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
